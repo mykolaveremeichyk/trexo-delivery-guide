@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F4E79"/>
+      <stop offset="60%" stop-color="#2a6fa8"/>
+      <stop offset="100%" stop-color="#4A90B8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.04)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="100" r="220" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="60"/>
+  <circle cx="1100" cy="560" r="160" fill="rgba(255,255,255,0.04)"/>
+  <circle cx="80" cy="520" r="100" fill="rgba(255,255,255,0.03)"/>
+
+  <!-- Diagonal stripe accent -->
+  <rect x="820" y="0" width="8" height="630" fill="rgba(255,255,255,0.08)" transform="rotate(-15 900 315)"/>
+  <rect x="870" y="0" width="4" height="630" fill="rgba(255,255,255,0.05)" transform="rotate(-15 900 315)"/>
+
+  <!-- Main card -->
+  <rect x="64" y="64" width="680" height="502" rx="16" fill="url(#card)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <!-- Eyebrow label -->
+  <text x="104" y="130" font-family="'Courier New', monospace" font-size="18" fill="rgba(255,255,255,0.55)" letter-spacing="3">PROCESS GUIDE · AIR FREIGHT</text>
+
+  <!-- Main title -->
+  <text x="104" y="210" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="white">Trexo Robotics</text>
+  <text x="104" y="278" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="white">Delivery Guide</text>
+
+  <!-- Route -->
+  <text x="104" y="338" font-family="Georgia, serif" font-size="36" fill="rgba(255,255,255,0.75)">🇨🇦 Canada → Poland 🇵🇱</text>
+
+  <!-- Divider -->
+  <line x1="104" y1="368" x2="620" y2="368" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="104" y="400" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.65)">Step-by-step import guide for medical devices</text>
+  <text x="104" y="428" font-family="Arial, sans-serif" font-size="20" fill="rgba(255,255,255,0.65)">Customs clearance · Air freight · Last-mile delivery</text>
+
+  <!-- Stats row -->
+  <g transform="translate(104, 480)">
+    <!-- Stat 1 -->
+    <rect x="0" y="0" width="140" height="64" rx="8" fill="rgba(255,255,255,0.1)"/>
+    <text x="70" y="22" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="1">TOTAL COST</text>
+    <text x="70" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white">$1,664</text>
+
+    <!-- Stat 2 -->
+    <rect x="156" y="0" width="140" height="64" rx="8" fill="rgba(255,255,255,0.1)"/>
+    <text x="226" y="22" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="1">TRANSIT TIME</text>
+    <text x="226" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white">~3 days</text>
+
+    <!-- Stat 3 -->
+    <rect x="312" y="0" width="140" height="64" rx="8" fill="rgba(255,255,255,0.1)"/>
+    <text x="382" y="22" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="1">STEPS</text>
+    <text x="382" y="50" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white">14 steps</text>
+  </g>
+
+  <!-- Right side checklist -->
+  <g transform="translate(820, 180)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="14" fill="rgba(255,255,255,0.45)" letter-spacing="2">COVERS</text>
+    <g transform="translate(0, 30)">
+      <text x="0" y="0"  font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Freight &amp; payments</text>
+      <text x="0" y="36" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Documents checklist</text>
+      <text x="0" y="72" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Customs clearance</text>
+      <text x="0" y="108" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Last-mile delivery</text>
+      <text x="0" y="144" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Pricing breakdown</text>
+      <text x="0" y="180" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Key contacts</text>
+      <text x="0" y="216" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Tips &amp; lessons</text>
+    </g>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="590" width="1200" height="40" fill="rgba(0,0,0,0.2)"/>
+  <text x="64" y="614" font-family="'Courier New', monospace" font-size="14" fill="rgba(255,255,255,0.4)">Based on November 2024 shipment · YYZ → WAW</text>
+</svg>
