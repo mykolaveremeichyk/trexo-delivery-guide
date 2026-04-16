@@ -33,8 +33,19 @@
   <text x="104" y="210" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="white">Trexo Robotics</text>
   <text x="104" y="278" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="white">Delivery Guide</text>
 
-  <!-- Route -->
-  <text x="104" y="338" font-family="Georgia, serif" font-size="36" fill="rgba(255,255,255,0.75)">🇨🇦 Canada → Poland 🇵🇱</text>
+  <!-- Route with SVG flag shapes -->
+  <g transform="translate(104, 310)">
+    <!-- Canada flag (red-white-red) -->
+    <rect x="0" y="0" width="10" height="22" fill="#D52B1E"/>
+    <rect x="10" y="0" width="14" height="22" fill="white"/>
+    <rect x="24" y="0" width="10" height="22" fill="#D52B1E"/>
+    <text x="44" y="18" font-family="Georgia, serif" font-size="36" fill="rgba(255,255,255,0.75)">Canada</text>
+    <text x="232" y="18" font-family="Georgia, serif" font-size="36" fill="rgba(255,255,255,0.5)">→</text>
+    <!-- Poland flag (white-red) -->
+    <rect x="280" y="0" width="34" height="11" fill="white"/>
+    <rect x="280" y="11" width="34" height="11" fill="#DC143C"/>
+    <text x="324" y="18" font-family="Georgia, serif" font-size="36" fill="rgba(255,255,255,0.75)">Poland</text>
+  </g>
 
   <!-- Divider -->
   <line x1="104" y1="368" x2="620" y2="368" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
@@ -65,13 +76,27 @@
   <g transform="translate(820, 180)">
     <text x="0" y="0" font-family="'Courier New', monospace" font-size="14" fill="rgba(255,255,255,0.45)" letter-spacing="2">COVERS</text>
     <g transform="translate(0, 30)">
-      <text x="0" y="0"  font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Freight &amp; payments</text>
-      <text x="0" y="36" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Documents checklist</text>
-      <text x="0" y="72" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Customs clearance</text>
-      <text x="0" y="108" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Last-mile delivery</text>
-      <text x="0" y="144" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Pricing breakdown</text>
-      <text x="0" y="180" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Key contacts</text>
-      <text x="0" y="216" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">✓  Tips &amp; lessons</text>
+      <!-- checkmark polygons -->
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,0)"/>
+      <text x="22" y="14" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Freight &amp; payments</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,36)"/>
+      <text x="22" y="50" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Documents checklist</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,72)"/>
+      <text x="22" y="86" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Customs clearance</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,108)"/>
+      <text x="22" y="122" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Last-mile delivery</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,144)"/>
+      <text x="22" y="158" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Pricing breakdown</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,180)"/>
+      <text x="22" y="194" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Key contacts</text>
+
+      <polygon points="0,8 5,14 14,2" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,216)"/>
+      <text x="22" y="230" font-family="Arial, sans-serif" font-size="19" fill="rgba(255,255,255,0.85)">Tips &amp; lessons</text>
     </g>
   </g>
 
